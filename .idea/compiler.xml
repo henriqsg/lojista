@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="atacadista" />
+        <module name="integra-engine-adv-jobs" />
+        <module name="lojista" />
+        <module name="retailer" />
+        <module name="wholesaler" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="coi-engine" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="atacadista" options="-parameters" />
+      <module name="lojista" options="-parameters" />
+      <module name="retailer" options="-parameters" />
+      <module name="wholesaler" options="-parameters" />
+    </option>
+  </component>
+</project>
